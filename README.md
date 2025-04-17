@@ -9,6 +9,10 @@
 - 애니메이션 효과가 있는 숫자 표시
 - 실시간 추첨 결과 표시
 
+## 가장 중요한 포인트
+- festival.dart 에서 페스티벌을 모델링해줘야 함.
+- 각 페스티벌 Enum 을 만들고, festivalID, raffleID 를 짝에 맞게 설정해주고 빌드해야 함
+
 ## 기술 스택
 
 - Flutter
@@ -28,7 +32,7 @@ lib/
 │   ├── festival_dropdown.dart  # 페스티벌 선택 드롭다운
 │   ├── draw_button.dart        # 추첨 버튼
 │   └── number_display.dart     # 숫자 표시 컴포넌트
-└── main.dart                    # 메인 애플리케이션
+└── main.dart                    # 메인 애플리케이션'
 ```
 
 ## 설치 및 실행
